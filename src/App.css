@@ -1,0 +1,30 @@
+
+/* Center the app */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black; 
+}
+
+/* Center the app content */
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the app */
+  border-radius: 10px;
+}
+
+/* Style the image to be larger */
+img {
+  width: 900px; /* Increase width */
+  height: 900px; /* Increase height */
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+button:hover {
+  background-color: rgb(253, 192, 255); 
+}
